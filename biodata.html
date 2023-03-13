@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata Diri</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+
+* {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        font-family: Poppins;
+      }
+
+      body {
+        background-color: rgb(243, 233, 179)  ;
+        min-height: auto;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      /* navbar start */
+      .navbar-sect {
+        display: flex;
+        align-items: center;
+        padding: 1.4rem 7%;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background-color: #e9b000;
+      }
+
+      .brand h1 {
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        color: rgb(220, 215, 210);
+        font: optional italic;
+      }
+
+      .brand span {
+        color: #e24e42;
+      }
+
+      .navbar-sect .option a {
+        display: flex;
+        overflow: hidden;
+      }
+
+      .navbar-sect .option a {
+        color: rgb(246, 255, 242);
+        display: inline-block;
+        font-size: 1rem;
+        margin: 0 2rem;
+        font-weight: 600;
+      }
+
+      .navbar-sect .option a:hover {
+        color: #e24e42;
+      }
+
+      .navbar-sect .option a::after {
+        content: "";
+        display: block;
+        padding: 0.2rem;
+        border-bottom: 2px solid #e24e42;
+        transform: translate(-150%);
+        transition: 0.7s ease;
+      }
+
+      .navbar-sect .option a:hover::after {
+        transform: translate(150%);
+      }
+      /* navbar end */
+
+      .hero-sect {
+        margin-top: 85px;
+      }
+
+      .hero-sect tr td {
+        color: #a39904;
+      }
+
+      .hero-sect h1 {
+        color: #a39904;
+      }
+
+      .hero-sect img {
+        margin-top: -20px;
+        background-color:  #e24e42;
+        /* border: 3px solid rgba(27, 50, 27, 0.755); */
+      }
+
+         /* footer */
+         .footer {
+        padding: 40px;
+        background-color:  #e9b000;
+        color: white;
+      }
+
+      hr {
+        color: #a39904;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Navbar start -->
+    <nav class="navbar-sect">
+      <div class="brand">
+        <a href="/index.html">
+          <h1>ADE <span>LIA</span></h1>
+        </a>
+      </div>
+      <div class="option">
+        <a href="/adel.html">BERANDA</a>
+        <a href="/portofolio.html">PORTOFOLIO</a>
+        <a href="#">IDENTITAS DIRI</a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- hero start -->
+    <div class="hero-sect container mt-2 py-5" >
+      <div style="font-family: 'Poppins', sans-serif;" class="row py-5 bg-dangr" width="500" >
+        <div data-aos="fade-down"  data-aos-delay="100"
+        data-aos-duration="1000" class="text-center">
+          <h1 style="font-size: 3rem; padding-bottom: 10px;">Data Pribadi</h1>
+        </div>
+          <hr data-aos="zoom-in" data-aos-delay="200"
+          data-aos-duration="1000">
+        
+          <div class="col" style="font-size: 20px;">
+            <div  data-aos="fade-right" data-aos-delay="100"
+            data-aos-duration="1000">
+          <table class=" mt-4 text-1 " align="center" cellpading="5" align="center" width=500" >
+            <tr >
+                <td>Nama</td> 
+                <td>: Adelia Nur Aisyah 
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td class="col-6">: Jalan bakti 4 Rt11/05 Gg. 
+                    <span class="bg-d mx-1 p-1">Masjid Nurul Huda</span></td>
+            </tr>
+            <tr>
+                <td>Tempat, tanggal lahir</td>
+                <td>: Jakarta 19, Agustus <span class="bg-d mx-1 p-1">2006</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis kelamin</td>
+                <td>: Perempuan</td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>: Islam</td>
+            </tr>
+          </table>
+        </div>
+      <!-- hero end -->
+          <div class="medsos">
+          <table class="mt-5" align="center" align="center" width="500">
+            <tr>
+              <td class="col" data-aos="fade-right" data-aos-delay="600"
+              data-aos-duration="1000">Sosial Media Saya</td>
+            </tr>
+          </table>
+          </div>
+          <table class="mt-2" align="center" align="center" width="500">
+            <tr>
+              <td>
+              <div data-aos="zoom-in" data-aos-delay="1200"
+              data-aos-duration="4000"><a href="https://www.instagram.com/_adelianurr/" target="_blank" style="text-decoration: none; color: rgb(144, 11, 68);"><i class="fa-brands fa-instagram"  style="cursor: pointer;"></i></a> 
+              <span class="m-3" style="font-size: 15px; ">Instagram</span></div>
+            </td>
+            <tr>
+              <td>
+              <div data-aos="zoom-in" data-aos-delay="1400"
+              data-aos-duration="4000"><a href="https://wa.me/6282117899719" target="_blank" style="text-decoration: none; color: green;"><i class="fa-brands fa-whatsapp"  style="cursor: pointer;"></i></a> 
+              <span class="m-3" style="font-size: 15px;" >Whatsapp</span></div>
+            </td>
+            </tr>
+          </table>
+          </div>
+          <div class="col-5 m-3 px-3 py-3" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0">
+            <img class="img-fluid flex-shrink-0 rounded-circle" src="/imgg/adel.png" width="100px" style="width: 320px; height: 360px;">
+          </div>
+        </div>
+          </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <footer class="footer text-center">
+      <div class="container">
+        <p>
+          Website tugas Produktif Tkj dengan Biodata diri saya <br />
+          &copy; 2023 By : Adelia Nur Aisyah <br />
+          All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
